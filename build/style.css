@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.country__name {
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    margin: .5rem;
+    padding: 1rem;
+    transition: box-shadow, transform .2s ease-in-out;
+}
+
+.country__name:hover {
+    box-shadow: 0 0 4px .5px #ccc;
+    transform: scale(1, 1.1) rotate(4deg);
+}
